@@ -1,0 +1,25 @@
+Index: src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.jpa.hibernate.ddl-auto=update\r\nspring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/african_arts_Store?createDatabaseIfNotExist=true\r\nspring.datasource.username=root\r\nspring.datasource.password=password\r\nspring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\r\nserver.servlet.context-path=/store\r\n#logging.level.root=DEBUG\r\nspring.jpa.open-in-view=false
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/src/main/resources/application.properties b/src/main/resources/application.properties
+--- a/src/main/resources/application.properties	(revision be17b71e77a9925c0c9266b211f0969159a325c3)
++++ b/src/main/resources/application.properties	(date 1721837983991)
+@@ -5,4 +5,11 @@
+ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+ server.servlet.context-path=/store
+ #logging.level.root=DEBUG
+-spring.jpa.open-in-view=false
+\ No newline at end of file
++spring.jpa.open-in-view=false
++
++#The home page, which would normally be accessed at http://localhost:8080/,
++#  will now be accessed at
++#  http://localhost:8080/store/.
++#An endpoint like /products that you would normally access at
++# http://localhost:8080/products  will now be accessed at
++#  http://localhost:8080/shopping_store/products.
+\ No newline at end of file

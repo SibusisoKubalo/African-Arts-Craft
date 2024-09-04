@@ -3,7 +3,6 @@ package za.ac.cput.domain;
 import java.io.Serializable;
 
 import jakarta.persistence.*;
-
 /**
  * Categories.java
  *

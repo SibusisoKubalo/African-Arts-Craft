@@ -1,18 +1,714 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dfc9b97-bcf6-48f1-9f27-38897c268d23" name="Changes" comment="update project DStructure" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Vue Composition API Component" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/Rethabile" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rethabile Ntsekhe" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ProductControllerTest" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2jeLJQBTXCGUgEHQFHHpAJIqMs9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP Request.African_Art_Craft-endpoints | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.African_Art_Craft-endpoints_1 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #10.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #11.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #12.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #13.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #14.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #16.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #17.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #18.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #19.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #20.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #21.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #22.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #23.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #24.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #26.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #27.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #8.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #9.executor&quot;: &quot;Run&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;020060dc-1fcc-420a-94d5-fd658aed6648&quot;,
+    &quot;JUnit.AddressServiceTest.create.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddressServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddressServiceTest.findAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CategoriesServiceTest.create.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CategoriesServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.getProductsUpdatedBefore.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.create.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserControllerTest.testCreateUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserfactoryTest.buildUser_Success.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserfactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsersControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsersControllerTest.testGetAllUsers.executor&quot;: &quot;Debug&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/retha/Documents/JetBrains Academy/African Art Craft/src/front-end/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.3.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\retha\Documents\JetBrains Academy\African Art Craft\src\front-end\src" />
+      <recent name="C:\Users\retha\Documents\JetBrains Academy\African Art Craft\src\front-end\src\pages" />
+      <recent name="C:\Users\retha\Documents\JetBrains Academy\African Art Craft\src\front-end\src\components" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\retha\Documents\JetBrains Academy\African Art Craft\src\test\resources" />
+      <recent name="C:\Users\retha\Documents\JetBrains Academy\African Art Craft\src\main\resources\static" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="za.ac.cput.service" />
+      <recent name="za.ac.cput.factory" />
+      <recent name="za.ac.cput.controller" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="generated-requests | #10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" requestIdentifier="#10" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="#8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="African-Arts-Craft" />
+      <module name="African Art Craft" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="African-Arts-Craft" />
+      <module name="African Art Craft" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="African-Arts-Craft" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="za.ac.cput.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="HTTP Request.generated-requests | #10" />
+        <item itemvalue="HTTP Request.generated-requests | #9" />
+        <item itemvalue="HTTP Request.generated-requests | #8" />
+        <item itemvalue="HTTP Request.generated-requests | #7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.9-jbr-17.0.9-4caba194b151-51f1b679" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2dfc9b97-bcf6-48f1-9f27-38897c268d23" name="Changes" comment="" />
+      <created>1721742614727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721742614727</updated>
+      <workItem from="1721742618882" duration="8515000" />
+      <workItem from="1721757997688" duration="473000" />
+      <workItem from="1721832616636" duration="20368000" />
+      <workItem from="1721908721609" duration="17338000" />
+      <workItem from="1721991810690" duration="19120000" />
+      <workItem from="1722021501334" duration="4527000" />
+      <workItem from="1722084459134" duration="27426000" />
+      <workItem from="1722236876814" duration="7992000" />
+      <workItem from="1722258640852" duration="2186000" />
+      <workItem from="1722273964784" duration="16071000" />
+      <workItem from="1722358566435" duration="8264000" />
+      <workItem from="1722415182759" duration="1859000" />
+      <workItem from="1722431833505" duration="13118000" />
+      <workItem from="1722851475000" duration="21583000" />
+      <workItem from="1722934156461" duration="604000" />
+      <workItem from="1722951873563" duration="1295000" />
+      <workItem from="1723042717566" duration="4300000" />
+      <workItem from="1723286070545" duration="274000" />
+      <workItem from="1723458298904" duration="7455000" />
+      <workItem from="1723541705652" duration="16597000" />
+      <workItem from="1723583161406" duration="36110000" />
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <option name="closed" value="true" />
+      <created>1721743074602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721743074602</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first">
+      <option name="closed" value="true" />
+      <created>1721743292282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721743292282</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first&#10;&#10;Signed-off-by: Twist1154n &lt;rethabile1154n@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1721743330532</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721743330532</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Structure">
+      <option name="closed" value="true" />
+      <created>1721743415875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721743415875</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Structure">
+      <option name="closed" value="true" />
+      <created>1721747467372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721747467372</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Structure">
+      <option name="closed" value="true" />
+      <created>1721748795933</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721748795933</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Structure">
+      <option name="closed" value="true" />
+      <created>1721750247447</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721750247447</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Structure">
+      <option name="closed" value="true" />
+      <created>1721750329670</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721750329670</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Structure">
+      <option name="closed" value="true" />
+      <created>1721758324490</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721758324490</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Structure">
+      <option name="closed" value="true" />
+      <created>1721758406516</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721758406516</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Domain classes Complete">
+      <option name="closed" value="true" />
+      <created>1721836909486</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721836909486</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Domain classes Complete">
+      <option name="closed" value="true" />
+      <created>1721837131327</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721837131327</updated>
+    </task>
+    <task id="LOCAL-00013" summary="application.properties and main App completed">
+      <option name="closed" value="true" />
+      <created>1721837794505</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721837794505</updated>
+    </task>
+    <task id="LOCAL-00014" summary="helper and factory complete">
+      <option name="closed" value="true" />
+      <created>1721838164356</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1721838164356</updated>
+    </task>
+    <task id="LOCAL-00015" summary="helper and factory complete">
+      <option name="closed" value="true" />
+      <created>1721838252274</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1721838252274</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test">
+      <option name="closed" value="true" />
+      <created>1721840774329</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721840774329</updated>
+    </task>
+    <task id="LOCAL-00017" summary="IRepository and IService Completed &#10;to be used for local testing">
+      <option name="closed" value="true" />
+      <created>1721841548258</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721841548258</updated>
+    </task>
+    <task id="LOCAL-00018" summary="User Repo done">
+      <option name="closed" value="true" />
+      <created>1721841854858</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721841854858</updated>
+    </task>
+    <task id="LOCAL-00019" summary="implements Serializable">
+      <option name="closed" value="true" />
+      <created>1721844098981</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721844098981</updated>
+    </task>
+    <task id="LOCAL-00020" summary="everthing works upto service layer">
+      <option name="closed" value="true" />
+      <created>1721849703719</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1721849703719</updated>
+    </task>
+    <task id="LOCAL-00021" summary="All Domains completed">
+      <option name="closed" value="true" />
+      <created>1721996895103</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721996895103</updated>
+    </task>
+    <task id="LOCAL-00022" summary="All Domains completed">
+      <option name="closed" value="true" />
+      <created>1721997212091</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721997212091</updated>
+    </task>
+    <task id="LOCAL-00023" summary="All Factories classes completed">
+      <option name="closed" value="true" />
+      <created>1722002315226</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1722002315226</updated>
+    </task>
+    <task id="LOCAL-00024" summary="All Factories classes completed">
+      <option name="closed" value="true" />
+      <created>1722014454716</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1722014454747</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Products.java&#10;ProductFactory&#10;ProductRepository&#10;ProductService&#10;ProductController&#10;Compeleted">
+      <option name="closed" value="true" />
+      <created>1722093816110</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1722093816110</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Products.java&#10;ProductFactory&#10;ProductRepository&#10;ProductService&#10;ProductController&#10;Compeleted">
+      <option name="closed" value="true" />
+      <created>1722101877430</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1722101877430</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Products.java&#10;ProductFactory&#10;ProductRepository&#10;ProductService&#10;ProductController&#10;Compeleted">
+      <option name="closed" value="true" />
+      <created>1722105598485</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722105598485</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Products.java&#10;ProductFactory&#10;ProductRepository&#10;ProductService&#10;ProductController&#10;Compeleted">
+      <option name="closed" value="true" />
+      <created>1722105615260</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722105615260</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Products.java&#10;ProductFactory&#10;ProductRepository&#10;ProductService&#10;ProductController&#10;Compeleted">
+      <option name="closed" value="true" />
+      <created>1722105770808</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1722105770808</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Products.java&#10;ProductFactory&#10;ProductRepository&#10;ProductService&#10;ProductController&#10;Compeleted">
+      <option name="closed" value="true" />
+      <created>1722339877659</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1722339877659</updated>
+    </task>
+    <task id="LOCAL-00031" summary="needs to be fixed">
+      <option name="closed" value="true" />
+      <created>1722339959894</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1722339959894</updated>
+    </task>
+    <task id="LOCAL-00032" summary="needs to be fixed">
+      <option name="closed" value="true" />
+      <created>1722341218094</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1722341218094</updated>
+    </task>
+    <task id="LOCAL-00033" summary="needs to be fixed">
+      <option name="closed" value="true" />
+      <created>1722857765779</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1722857765779</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update">
+      <option name="closed" value="true" />
+      <created>1722857908959</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1722857908959</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update">
+      <option name="closed" value="true" />
+      <created>1722870911665</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1722870911665</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update">
+      <option name="closed" value="true" />
+      <created>1722953013691</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1722953013691</updated>
+    </task>
+    <task id="LOCAL-00037" summary="aws S3  bucket intergrated and fully functional">
+      <option name="closed" value="true" />
+      <created>1723663570233</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1723663570233</updated>
+    </task>
+    <task id="LOCAL-00038" summary="aws S3  bucket intergrated and fully functional">
+      <option name="closed" value="true" />
+      <created>1723663942105</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1723663942105</updated>
+    </task>
+    <task id="LOCAL-00039" summary="aws S3  bucket intergrated and fully functional">
+      <option name="closed" value="true" />
+      <created>1723664010098</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1723664010098</updated>
+    </task>
+    <task id="LOCAL-00040" summary="aws S3  bucket intergrated and fully functional">
+      <option name="closed" value="true" />
+      <created>1723664177367</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1723664177367</updated>
+    </task>
+    <task id="LOCAL-00041" summary="aws S3  bucket intergrated and fully functional">
+      <option name="closed" value="true" />
+      <created>1723664432232</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1723664432232</updated>
+    </task>
+    <task id="LOCAL-00042" summary="aws S3  bucket intergrated and fully functional">
+      <option name="closed" value="true" />
+      <created>1723665220439</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1723665220439</updated>
+    </task>
+    <task id="LOCAL-00043" summary="aws S3  bucket intergrated and fully functional&#10;&#10;Signed-off-by: Twist1154n &lt;rethabile1154n@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1723665332588</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1723665332588</updated>
+    </task>
+    <task id="LOCAL-00044" summary="aws S3  bucket intergrated and fully functional&#10;&#10;Signed-off-by: Twist1154n &lt;rethabile1154n@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1723665374764</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1723665374764</updated>
+    </task>
+    <task id="LOCAL-00045" summary="aws S3  bucket intergrated and fully functional&#10;&#10;Signed-off-by: Twist1154n &lt;rethabile1154n@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1723665437765</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1723665437765</updated>
+    </task>
+    <task id="LOCAL-00046" summary="aws S3  bucket intergrated and fully functional&#10;&#10;Signed-off-by: Twist1154n &lt;rethabile1154n@gmail.com&gt;">
+      <option name="closed" value="true" />
+      <created>1723665611703</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1723665611703</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update project DStructure">
+      <option name="closed" value="true" />
+      <created>1723666953721</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1723666953721</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update project DStructure">
+      <option name="closed" value="true" />
+      <created>1723667611303</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1723667611303</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first" />
+    <MESSAGE value="first&#10;&#10;Signed-off-by: Twist1154n &lt;rethabile1154n@gmail.com&gt;" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Structure&#10;&#10;Signed-off-by: Twist1154n &lt;rethabile1154n@gmail.com&gt;" />
+    <MESSAGE value="Structure" />
+    <MESSAGE value="Domain classes Complete" />
+    <MESSAGE value="application.properties and main App completed" />
+    <MESSAGE value="helper and factory complete" />
+    <MESSAGE value="test" />
+    <MESSAGE value="IRepository and IService Completed &#10;to be used for local testing" />
+    <MESSAGE value="User Repo done" />
+    <MESSAGE value="implements Serializable" />
+    <MESSAGE value="everthing works upto service layer" />
+    <MESSAGE value="All Domains completed" />
+    <MESSAGE value="All Factories classes completed" />
+    <MESSAGE value="Products.java&#10;ProductFactory&#10;ProductRepository&#10;ProductService&#10;ProductController&#10;Compeleted" />
+    <MESSAGE value="needs" />
+    <MESSAGE value="needs to be fixed" />
+    <MESSAGE value="update" />
+    <MESSAGE value="aws S3  bucket intergrated and fully functional" />
+    <MESSAGE value="removed .properties file" />
+    <MESSAGE value="aws S3  bucket intergrated and fully functional&#10;&#10;Signed-off-by: Twist1154n &lt;rethabile1154n@gmail.com&gt;" />
+    <MESSAGE value="update project DStructure" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project DStructure" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" log-stack="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint log-message="true" log-stack="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/African_Art_Craft$Application.ic" NAME="Application Coverage Results" MODIFIED="1722860592773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>za.ac.cput.*</FILTER>
+    </SUITE>
   </component>
 </project>
