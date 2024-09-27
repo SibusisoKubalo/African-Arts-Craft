@@ -9,35 +9,33 @@ package za.ac.cput.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
-import org.springframework.http.MediaType;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
+import org.springframework.test.context.ActiveProfiles;
 import za.ac.cput.domain.Payments;
 import za.ac.cput.service.PaymentService;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+@SpringBootTest
+@ActiveProfiles("test")  // This can be used if you have a separate profile for testing
 class PaymentControllerTest {
 
-    @Mock
+    @Autowired
     private PaymentService paymentService;
 
-    @InjectMocks
+    @Autowired
     private PaymentController paymentController;
 
     private Payments payment;
 
     @BeforeEach
     void setUp() {
-        MockitoAnnotations.openMocks(this);
         payment = new Payments.Builder()
                 .setPayment_id(1L)
                 .setOrder_id(1001L)
@@ -50,38 +48,69 @@ class PaymentControllerTest {
 
     @Test
     void testCreatePayment() {
-        when(paymentService.create(payment)).thenReturn(payment);
         ResponseEntity<Payments> response = paymentController.createPayment(payment);
         assertEquals(200, response.getStatusCodeValue());
-        assertEquals(payment, response.getBody());
+        assertNotNull(response.getBody());
+        assertEquals(payment.getPayment_id(), response.getBody().getPayment_id());
     }
 
     @Test
     void testReadPayment() {
-        when(paymentService.read(1L)).thenReturn(Optional.of(payment));
-        ResponseEntity<Payments> response = paymentController.readPayment(1L);
+        // Create a payment first so it exists in the database
+        paymentService.create(payment);
+        ResponseEntity<Payments> response = paymentController.readPayment(payment.getPayment_id());
         assertEquals(200, response.getStatusCodeValue());
-        assertEquals(payment, response.getBody());
+        assertNotNull(response.getBody());
+        assertEquals(payment.getPayment_id(), response.getBody().getPayment_id());
     }
 
     @Test
     void testUpdatePayment() {
-        when(paymentService.update(payment)).thenReturn(payment);
-        ResponseEntity<Payments> response = paymentController.updatePayment(payment);
+        // Create a payment to update
+        paymentService.create(payment);
+        Payments updatedPayment = new Payments.Builder()
+                .setPayment_id(payment.getPayment_id())
+                .setOrder_id(1001L)
+                .setPayment_date(LocalDate.of(2024, 8, 1))  // New date
+                .setPayment_amount(600.00)  // New amount
+                .setPayment_method("Credit Card")
+                .setPayment_status("Pending")
+                .build();
+
+        ResponseEntity<Payments> response = paymentController.updatePayment(updatedPayment);
         assertEquals(200, response.getStatusCodeValue());
-        assertEquals(payment, response.getBody());
+        assertNotNull(response.getBody());
+        assertEquals(600.00, response.getBody().getPayment_amount());
     }
 
     @Test
     void testDeletePayment() {
-        doNothing().when(paymentService).delete(1L);
-        ResponseEntity<Void> response = paymentController.deletePayment(1L);
+        // Create a payment to delete
+        paymentService.create(payment);
+        ResponseEntity<Void> response = paymentController.deletePayment(payment.getPayment_id());
         assertEquals(204, response.getStatusCodeValue());
-        verify(paymentService, times(1)).delete(1L);
+        Optional<Payments> deletedPayment = paymentService.read(payment.getPayment_id());
+        assertTrue(deletedPayment.isEmpty());
     }
 
     @Test
     void testGetAllPayments() {
-        // Test code for getAllPayments() can be added here.
+        // Create multiple payments
+        Payments payment1 = new Payments.Builder()
+                .setPayment_id(2L)
+                .setOrder_id(1002L)
+                .setPayment_date(LocalDate.of(2024, 7, 23))
+                .setPayment_amount(300.00)
+                .setPayment_method("Debit Card")
+                .setPayment_status("Completed")
+                .build();
+
+        paymentService.create(payment);
+        paymentService.create(payment1);
+
+        ResponseEntity<List<Payments>> response = paymentController.getAllPayments();
+        assertEquals(200, response.getStatusCodeValue());
+        assertNotNull(response.getBody());
+        assertTrue(response.getBody().size() >= 2);
     }
 }
